@@ -14,13 +14,15 @@ import FAQ from './pages/Faqs';
 import MediaCard from './pages/articles.jsx';
 import LastAd from './pages/LastAd.jsx';
 import Blog from './pages/Typography.jsx';
-import Footer from './pages/Footer.jsx'
+import Footer from './pages/Footer.jsx';
+import Hooks from './pages/Hooks.jsx';
 
 function App() {
   return (
     <>
     <PrimarySearchAppBar />
     <SwipeableTextMobileStepper/>
+    <Hooks/>
     <ImgMediaCard/>
     <ProductCard/>
     <ActionAreaCard/>

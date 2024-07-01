@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardContent, CardMedia, Typography, Box, Container, Button } from "@mui/material";
 import { Rating } from "@mui/material";
-import { red } from "@mui/material/colors";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,7 +12,6 @@ import myLocalImage25 from "../assets/cardProductThree.png";
 import myLocalImage26 from "../assets/cardProductFour.png";
 import myLocalImage27 from "../assets/cardProductFive.png";
 import myLocalImage28 from "../assets/cardProductSix.png";
-import ad from "../assets/ad.png";
 
 const products = [
   {
